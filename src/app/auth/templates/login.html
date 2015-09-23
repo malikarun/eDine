@@ -1,0 +1,28 @@
+<ion-view>
+  <ion-content padding="true">
+
+    <div class="hero flat">
+      <div class="content">
+        <div class="app-icon"></div>
+        <h1>eDine</h1>
+      </div>
+    </div>
+
+    <ion-list>
+<!--       <label class="item item-input item-floating-label">
+        <span class="input-label">Email</span>
+        <input placeholder="Email" type="email" ng-model="loginController.email"></input>
+      </label>
+
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Password</span>
+        <input placeholder="Password" type="password" ng-model="loginController.password"></input>
+      </label> -->
+      <button ng-click="loginController.authenticate('facebook')">
+        Sign in with Github
+      </button>
+    </ion-list>
+
+    <button ng-click="loginController.authenticate()" class="button button-full button-assertive ink">Login</button>
+  </ion-content>
+</ion-view>

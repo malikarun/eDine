@@ -1,0 +1,81 @@
+/*
+To customize the look and feel of Ionic, you can override the variables
+in ionic's _variables.scss file.
+
+For example, you might change some of the default colors:
+
+$light:     #fff !default;
+$stable:    #f8f8f8 !default;
+$positive:  #4a87ee !default;
+$calm:      #43cee6 !default;
+$balanced:  #66cc33 !default;
+$energized: #f0b840 !default;
+$assertive: #ef4e3a !default;
+$royal:     #8a6de9 !default;
+$dark:      #444 !default;
+*/
+/*!
+  Ionicons, v1.5.2
+  Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
+  https://twitter.com/benjsperry  https://twitter.com/ionicframework
+  MIT License: https://github.com/driftyco/ionicons
+*/
+
+$RobotoDraftFontPath: "../fonts/robotodraft" !default;
+$ionicons-font-path: "../fonts" !default;
+
+$BackgroundColor: #009688; //teal
+$light: #009688 !default; //teal
+
+@import "../../bower_components/robotodraft/sass/robotodraft.scss";
+@import "../../bower_components/ionic/scss/ionic.scss";
+//************************ Default Override styling *************************/
+.scroll {
+  height: 100vh;
+}
+
+.scroll-content {
+  background-color: $BackgroundColor;
+}
+
+.overflow-scroll {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.loader {
+  height: 105px;
+}
+
+ion-content.no-header {
+  top: 0;
+}
+
+.bar-header {
+  box-shadow: none;
+  border: none;
+  height: 45px;
+}
+
+.button, button {
+  border-radius: 4px;
+}
+
+// .bar-clear.bar-header {
+//   box-shadow: none;
+//   border: none;
+// }
+
+/**
+ *  Do not remove this comments bellow. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+/**
+ *  Do not remove this comments bellow. It's the markers used by gulp-inject to inject
+ *  all your sass files automatically
+ */
+// injector
+// endinjector

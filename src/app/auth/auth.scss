@@ -1,0 +1,19 @@
+.app-icon {
+  background-color: #fff;
+  background: url('/assets/images/logo.jpg') center;
+  background-size: cover;
+  border-radius: 50%;
+  height: 125px;
+  margin: 0 auto;
+  width: 125px;
+}
+
+.hero > .content {
+  h1 {
+    color: white;
+  }
+}
+
+.input-label, input {
+  color: white !important;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "eDine",
+  "private": "true",
+  "dependencies": {
+    "angular-animate": "1.4.6",
+    "animate.css": "~3.3.0",
+    "ionic": "driftyco/ionic-bower#1.1.0",
+    "ionic-material": "~0.4.2",
+    "ng-token-auth": "~0.0.28",
+    "robotodraft": "~1.1.0"
+  }
+}
